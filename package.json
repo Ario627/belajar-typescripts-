@@ -1,0 +1,20 @@
+{
+  "name": "belajar-typescript",
+  "version": "1.0.0",
+  "description": "halooo",
+  "homepage": "https://github.com/Ario627/belajar-typescripts-#readme",
+  "bugs": {
+    "url": "https://github.com/Ario627/belajar-typescripts-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ario627/belajar-typescripts-.git"
+  },
+  "license": "ISC",
+  "author": "Ario627",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
