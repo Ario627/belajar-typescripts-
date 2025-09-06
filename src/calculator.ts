@@ -5,7 +5,7 @@ interface CalculationResult {
   result: number;
 }
 
-class Calculator {
+export class Calculator {
   add(a: number, b: number): CalculationResult {
     return {operation: 'penjumlahan', a, b, result: a + b};
   }
