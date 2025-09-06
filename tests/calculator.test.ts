@@ -26,13 +26,13 @@ describe('Calculator', () => {
   });
 
   test("pangkat hingga benar", () => {
-    const result = calc.power(2, 3);
+    const result = calc.power(50, 9);
     console.log(result);
     expect(result).toEqual({
       operation: 'pangkat',
-      a: 2,
-      b: 3,
-      result: 8
+      a: 50,
+      b: 9,
+      result: 9
     });
   });
 
