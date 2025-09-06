@@ -1,1 +1,0 @@
-{"version":3,"file":"say-hello.test.js","sourceRoot":"","sources":["../../tests/say-hello.test.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,QAAQ,EAAC,MAAM,kBAAkB,CAAC;AAE1C,QAAQ,CAAC,UAAU,EAAE;IACnB,EAAE,CAAC,0BAA0B,EAAE;QAC7B,MAAM,CAAC,QAAQ,CAAC,MAAM,CAAC,CAAC,CAAC,IAAI,CAAC,YAAY,CAAC,CAAC;IAC9C,CAAC,CAAC,CAAC;AACL,CAAC,CAAC,CAAC"}
