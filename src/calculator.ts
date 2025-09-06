@@ -22,16 +22,3 @@ class Calculator {
     return {operation: 'pembagian', a, b, result: a / b};
   }
 }
-
-const calc = new Calculator();
-
-console.log(calc.add(10, 5));
-console.log(calc.substract(10, 9));
-console.log(calc.multiply(8, 5));
-console.log(calc.devide(10, 5));
-
-try {
-  console.log(calc.devide(10, 0));
-} catch(error) {
-  console.log("Error bro:", error.message);
-}
