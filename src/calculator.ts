@@ -21,4 +21,13 @@ export class Calculator {
     }
     return {operation: 'pembagian', a, b, result: a / b};
   }
+  power(a: number, b: number): CalculationResult {
+    return {operation: 'pangkat', a, b, result: Math.pow(a, b)};
+  }
+  sqrt(a: number): CalculationResult {
+    if (a < 0) {
+      throw new Error("tidak bisa mengakarkuadratkan bilangan negatif");
+    }
+    return {operation: 'akar kuadrat', a, b: 2, result: Math.sqrt(a)};
+  }
 }

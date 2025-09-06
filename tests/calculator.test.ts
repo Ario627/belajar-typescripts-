@@ -24,4 +24,30 @@ describe('Calculator', () => {
       result: 3
     });
   });
+
+  test("pangkat hingga benar", () => {
+    const result = calc.power(2, 3);
+    console.log(result);
+    expect(result).toEqual({
+      operation: 'pangkat',
+      a: 2,
+      b: 3,
+      result: 8
+    });
+  });
+
+  test("akar kuadrat hingga benar", () => {
+    const result = calc.sqrt(9);
+    console.log(result);
+    expect(result).toEqual({
+      operation: 'akar kuadrat',
+      a: 9,
+      b: 2,
+      result: 3
+    });
+  });
+
+  test("akar kuadrat bilangan negatif hingga error", () => {
+    expect(() => calc.sqrt(-9)).toThrow("tidak bisa mengakarkuadratkan bilangan negatif");
+  });
 });
