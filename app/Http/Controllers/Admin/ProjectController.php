@@ -17,17 +17,6 @@ use Illuminate\Support\Facades\Storage;
 class ProjectController extends Controller
 {
     /**
-     * Constructor
-     * 
-     * Apply middleware untuk semua methods di controller ini.
-     * Hanya user yang sudah login yang bisa akses.
-     */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
-
-    /**
      * Display a listing of projects
      * 
      * Menampilkan semua projects milik user yang sedang login.
